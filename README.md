@@ -1,4 +1,4 @@
-# LinkedList Library
+# ll - LinkedList Library
 
 This is a **LinkedList Library**, a Go-based implementation of both **singly linked lists** and **doubly linked lists**.
 
@@ -38,8 +38,8 @@ This is a **LinkedList Library**, a Go-based implementation of both **singly lin
 To use this library, you need to have Go installed on your system. Clone the repository and initialize the module:
 
 ```bash
-git clone https://github.com/JustMrNone/LinkedList.git
-cd LinkedList
+git clone https://github.com/JustMrNone/ll.git
+cd ll
 go mod tidy
 ```
 
@@ -54,7 +54,7 @@ package main
 
 import (
     "fmt"
-    "github.com/JustMrNone/LinkedList/singly"
+    "github.com/JustMrNone/ll/singly"
 )
 
 func main() {
@@ -79,7 +79,7 @@ package main
 
 import (
     "fmt"
-    "github.com/JustMrNone/LinkedList/doubly"
+    "github.com/JustMrNone/ll/doubly"
 )
 
 func main() {
@@ -150,4 +150,4 @@ Special thanks to the Go community for their excellent resources.
 
 ---
 
-Enjoy! 
+Enjoy!
